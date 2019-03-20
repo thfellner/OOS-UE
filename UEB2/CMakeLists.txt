@@ -7,4 +7,4 @@ include_directories(.)
 
 add_executable(UEB2
         asciiimage.h
-        test.cpp)
+        test.cpp main.cpp asciiimage.cpp)
