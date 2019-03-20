@@ -1,2 +1,4 @@
 DrMemory*
 gtest*
+*/.idea
+*/cmake-build-debug
