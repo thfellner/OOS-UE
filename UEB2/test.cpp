@@ -74,11 +74,11 @@ TEST(SHOW, DOES_PRINT_EXACTLY)
 	double y1 = 1.5;
 	int maxi = 50;
 
-	//x und y Koordinate im imaginären Bild
+	//x und y Koordinate im imaginren Bild
 	double x;
 	double y;
 
-	//Skaliere für jeden Punkt der Computergrafik den dazu gehörigen Punkt der imaginären Grafik
+	//Skaliere fr jeden Punkt der Computergrafik den dazu gehrigen Punkt der imaginren Grafik
 	for (int s = 0; s<80; s++) {
 		x = x0 + (x1 - x0) / ((double)80)*(double)s;
 		for (int t = 0; t<25; t++) {
